@@ -1,6 +1,9 @@
 $height: 100vh;
 $width: 100vw;
 
+body {
+  margin: 0;
+}
 #jordanI {
   position: absolute;
   height: $height;
@@ -18,4 +21,8 @@ svg {
 }
 body {
   overflow: hidden;
+}
+a { 
+  position: absolute;
+  z-index: 9999;
 }
