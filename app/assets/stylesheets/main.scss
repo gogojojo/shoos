@@ -1,7 +1,14 @@
-div {
-  position: relative;
+#superstar {
+  position: absolute;
   height: 100vh;
   width: 100vw;
+}
+#duex {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 100vw;
 }
 svg {
   position: absolute;
