@@ -7,8 +7,8 @@ $(function () {
   })
   $('.exit').click(function(){
     $( '.more-info' ).fadeTo( 900, 0 );
-    $('.info-container').css({"z-index":"999999999999"})
+    $('.info-container').css({"z-index":"9999999"})
     $('a').removeClass('hidden');
-    $('a').css({"z-index":"999999999999"})
+    $('a').css({"z-index":"9999999"})
   })
 });
