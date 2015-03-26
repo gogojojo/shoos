@@ -1,5 +1,7 @@
 $height: 100vh;
 $width: 100vw;
+$title-font:'Graduate', cursive;
+$title-font-size: 6vh;
 
 body {
   margin: 0;
@@ -32,15 +34,56 @@ a {
 }
 .left {
   padding: 10px 14px;
-  right: 7vw;
+  left: 7vw;
   bottom: 50vh;
   border-radius: 100%;
   border: 2px black solid;
 }
 .right {
   padding: 10px 14px;
-  left: 7vw;
+  right: 7vw;
   bottom: 50vh;
   border-radius: 100%;
   border: 2px black solid;
+}
+.title-container {
+  position: absolute;
+  width: 100%;
+  bottom: 25vh;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-family: $title-font;
+  font-size: $title-font-size;
+}
+.info-container {
+  position: absolute;
+  width: 100%;
+  bottom: 18vh;
+  text-align: center;
+}
+.info {
+  text-align: center;
+  font-family: $title-font;
+  font-size: 4vh;
+  border-style: none;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 15px; 
+  box-shadow: 0px 5px 0px blue;
+}
+.more-info {
+  height: $height;
+  width: $width;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.hidden {
+  visibility: hidden;
 }
