@@ -25,4 +25,22 @@ body {
 a { 
   position: absolute;
   z-index: 9999;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  background-color: black
+}
+.left {
+  padding: 10px 14px;
+  right: 7vw;
+  bottom: 50vh;
+  border-radius: 100%;
+  border: 2px black solid;
+}
+.right {
+  padding: 10px 14px;
+  left: 7vw;
+  bottom: 50vh;
+  border-radius: 100%;
+  border: 2px black solid;
 }

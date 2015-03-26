@@ -1,5 +1,6 @@
 $(function() {
   animateshoe('.jordanI')
+
   $('.left').click(function(){
       var clas = $(this).attr('href').replace('#','.')
       console.log(clas)
@@ -23,7 +24,7 @@ $(function() {
   function animateshoe($class){
   
   $($class).each(function(i){
-    time=200+(100*i)
+    time=200+(20*i)
     icon=Math.floor((Math.random()*16));
     $(this).css({
       'top':'-500px',
