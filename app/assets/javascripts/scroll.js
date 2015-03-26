@@ -1,5 +1,12 @@
 $(function() {
-  animateshoe('.jordanI')
+
+  $('.start').click(function(){
+      animateshoe('.jordanI')
+      $('html, body').animate({
+          scrollLeft: $( '#jordanI' ).offset().left
+      }, 900);
+      return false;
+  });
 
   $('.left').click(function(){
       var clas = $(this).attr('href').replace('#','.')
