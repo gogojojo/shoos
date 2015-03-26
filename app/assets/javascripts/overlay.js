@@ -6,7 +6,7 @@ $(function () {
     $('a').addClass('hidden');
   })
   $('.exit').click(function(){
-    $( '.more-info' ).fadeTo( 900, 0 );
+    $( '.more-info' ).fadeTo( 200, 0 );
     $('.info-container').css({"z-index":"9999999"})
     $('a').removeClass('hidden');
     $('a').css({"z-index":"9999999"})
