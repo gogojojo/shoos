@@ -33,7 +33,7 @@ $(function() {
     time=200+(10*i)
     icon=Math.floor((Math.random()*16));
     $(this).css({
-      'top':'-500px',
+      'top':'-1000px',
     }).delay(time).animate({
       'opacity':'1',
       'top':'0',

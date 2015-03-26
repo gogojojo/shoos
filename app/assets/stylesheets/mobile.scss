@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: black;
   color: white;
-  opacity: .9;
+  opacity: .96;
   z-index: 999999999999;
   position: absolute;
   top: 0;
@@ -11,7 +11,99 @@
   visibility: hidden;
 }
 #mobile h1 {
+  margin-top: 10vh;
   text-align: center;
   font-family: 'Graduate', cursive;
-  font-size: 30vh;
+  font-size: 8vh;
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #mobile {
+      visibility: visible;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #mobile {
+      visibility: visible;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #mobile {
+      visibility: visible;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #mobile {
+      visibility: visible;
+    }
+
+}
+/* ----------- iPad mini ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mobile {
+      visibility: visible;
+    }
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    #mobile {
+      visibility: visible;
+    }
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+#mobile {
+      visibility: visible;
+    }
 }
