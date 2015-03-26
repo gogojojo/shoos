@@ -10,13 +10,14 @@ body {
   position: absolute;
   height: $height;
   width: $width;
+  left: 100vw
 }
 #superstar {
   height: $height;
   width: $width;
   position: absolute;
   top: 0;
-  left: 100vw;
+  left: 200vw;
 }
 svg {
   position: absolute;
