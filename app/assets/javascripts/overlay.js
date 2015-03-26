@@ -1,12 +1,14 @@
 $(function () {
   $('.info').click(function(){
-    console.log('hi')
     $('.more-info').removeClass('hidden');
+    $( ".more-info" ).fadeTo( 900, 0.95 );
+    $('.info-container').css({"z-index":"99"})
     $('a').addClass('hidden');
   })
   $('.exit').click(function(){
-    console.log('hi')
-    $('.more-info').addClass('hidden');
+    $( '.more-info' ).fadeTo( 900, 0 );
+    $('.info-container').css({"z-index":"999999999999"})
     $('a').removeClass('hidden');
+    $('a').css({"z-index":"999999999999"})
   })
 });
