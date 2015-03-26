@@ -3,7 +3,6 @@ $(function() {
 
   $('.left').click(function(){
       var clas = $(this).attr('href').replace('#','.')
-      console.log(clas)
       animateshoe(clas)
       $('html, body').animate({
           scrollLeft: $( $(this).attr('href') ).offset().left
